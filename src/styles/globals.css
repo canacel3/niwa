@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.title {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.prose {
+  color: white;
+}
+
+.prose h2 {
+  color: white;
+}
+
+.prose a {
+  color: white;
+}
+
+.prose strong {
+  color: white;
+}
